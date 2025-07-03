@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico">
+        <title>Kind Words - Quotes</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <header>
+            <h1>Few Kind Words for You</h1>
+            <button id="theme-button">Toggle Theme Mode</button>
+        </header>
+
+        <main class="quote-section">
+            <div id="quote-box">
+                <p id="quote">Click the buttons for a message</p>
+            </div>
+            <button onclick="getRandomQuote()">Another One</button>
+            <button onclick="saveFavoriteQuote()">Save This</button>
+            <button onclick="showSavedQuote()">Show Saved</button>
+        </main>
+
+        <footer>
+            For Everyone
+        </footer>
+    </body>
+</html>
